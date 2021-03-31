@@ -60,7 +60,11 @@
                     </tableView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="H8n-a5-fZa">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="5ha-Kr-YmY"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="5ha-Kr-YmY">
+                            <connections>
+                                <action selector="addButtonTapped:" destination="BoO-Cs-EBd" id="bC1-Hy-zJg"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
