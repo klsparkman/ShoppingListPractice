@@ -16,6 +16,8 @@
 		35E0E2DC2612694D0088149E /* ShoppingListPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E0E2DB2612694D0088149E /* ShoppingListPracticeUITests.swift */; };
 		35E0E30E261279520088149E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E0E30D261279520088149E /* Item.swift */; };
 		35E0E313261279730088149E /* ItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E0E312261279730088149E /* ItemController.swift */; };
+		35E0E3182614334E0088149E /* ItemListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E0E3172614334D0088149E /* ItemListTableViewController.swift */; };
+		35E0E31D261433740088149E /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E0E31C261433740088149E /* ItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		35E0E2DD2612694D0088149E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35E0E30D261279520088149E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		35E0E312261279730088149E /* ItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemController.swift; sourceTree = "<group>"; };
+		35E0E3172614334D0088149E /* ItemListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListTableViewController.swift; sourceTree = "<group>"; };
+		35E0E31C261433740088149E /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,8 @@
 		35E0E30026126B720088149E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				35E0E3172614334D0088149E /* ItemListTableViewController.swift */,
+				35E0E31C261433740088149E /* ItemTableViewCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -310,8 +316,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				35E0E2BA261269470088149E /* AppDelegate.swift in Sources */,
+				35E0E3182614334E0088149E /* ItemListTableViewController.swift in Sources */,
 				35E0E30E261279520088149E /* Item.swift in Sources */,
 				35E0E313261279730088149E /* ItemController.swift in Sources */,
+				35E0E31D261433740088149E /* ItemTableViewCell.swift in Sources */,
 				35E0E2BC261269470088149E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
